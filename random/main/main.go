@@ -6,10 +6,6 @@ import (
 
 	"github.com/cyansonwscape/PluginForScheduler/random/plugin"
 
-	//"https://github.com/cyansonwscape/PluginForScheduler/tree/master/random/plugin"
-
-	//"F:\\Program Files\\GoProject\\PluginForScheduler\\random\\plugin"
-
 	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 )
 
