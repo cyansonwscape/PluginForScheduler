@@ -1,20 +1,22 @@
 // pkg/plugin/myplugin.go
 package plugin
 
-// import (
-// 	"context"
-// 	"log"
-// 	"math/rand" // 导入随机数生成包
-
-// 	"k8s.io/apimachinery/pkg/runtime"
-// 	"k8s.io/kubernetes/pkg/scheduler/framework"
-// )
-
 import (
 	"context"
 	"log"
-	"math/rand"
+	"math/rand" // 导入随机数生成包
+
+	"k8s.io/apimachinery/pkg/runtime"
+	"k8s.io/kubernetes/pkg/scheduler/framework"
 )
+
+// import (
+// 	"context"
+// 	"log"
+// 	"math/rand"
+
+// 	"k8s.io/apimachinery/pkg/runtime"
+// )
 
 // Name is the name of the plugin used in the plugin registry and configurations.
 

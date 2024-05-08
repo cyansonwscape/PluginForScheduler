@@ -5,7 +5,6 @@ import (
 	"os"
 
 	"github.com/cyansonwscape/PluginForScheduler/random/plugin"
-
 	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 )
 
