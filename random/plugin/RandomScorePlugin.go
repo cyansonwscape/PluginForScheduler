@@ -15,7 +15,8 @@ import (
 	"log"
 	"math/rand"
 
-	v1 "k8s.io/api/core/v1"
+	// Used by the client to interact with Kubernetes API.
+    "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
 )
