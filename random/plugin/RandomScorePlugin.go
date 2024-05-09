@@ -2,12 +2,12 @@
 package plugin
 
 import (
-	"context"
-	"log"
-	"math/rand" // 导入随机数生成包
-
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/scheduler/framework"
+    "context"
+    "k8s.io/api/core/v1"
+    "k8s.io/apimachinery/pkg/runtime"
+    "k8s.io/kubernetes/pkg/scheduler/framework"
+    "log
+	"math/rand"
 )
 
 // import (
@@ -16,7 +16,10 @@ import (
 // 	"math/rand"
 
 // 	"k8s.io/apimachinery/pkg/runtime"
+// 	"k8s.io/kubernetes/pkg/scheduler/framework"
 // )
+
+// 导入随机数生成包
 
 // Name is the name of the plugin used in the plugin registry and configurations.
 

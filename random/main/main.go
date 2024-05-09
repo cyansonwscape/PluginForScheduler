@@ -1,4 +1,4 @@
-// cmd/scheduler/main.go 插件调用入口
+// main.go 插件调用入口
 package main
 
 import (
