@@ -1,9 +1,9 @@
-module github.com/cyansonwscape/PluginForScheduler/random/main
+module github.com/cyansonwscape/PluginForScheduler/random2
 
 go 1.22.2
 
 require (
-	github.com/cyansonwscape/PluginForScheduler/random v0.0.0-20240508091811-3b5442930490
+	k8s.io/api v0.30.0
 	k8s.io/apimachinery v0.30.0
 	k8s.io/kubernetes v1.30.0
 )
@@ -94,7 +94,6 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.30.0 // indirect
 	k8s.io/apiserver v0.0.0 // indirect
 	k8s.io/client-go v0.0.0 // indirect
 	k8s.io/cloud-provider v0.0.0 // indirect
