@@ -1,7 +1,6 @@
 module github.com/cyansonwscape/PluginForScheduler/sample
 
 go 1.22.2
-
 require (
 	github.com/spf13/cobra v1.6.0
 	k8s.io/kubernetes v0.0.0
@@ -114,34 +113,35 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-		// 使用本地的 k8s 源码路径替换
-		replace (
-		k8s.io/api => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/api"
-		k8s.io/apiextensions-apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apiextensions-apiserver"
-		k8s.io/apimachinery => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apimachinery"
-		k8s.io/apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apiserver"
-		k8s.io/cli-runtime => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cli-runtime"
-		k8s.io/client-go => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/client-go"
-		k8s.io/cloud-provider => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cloud-provider"
-		k8s.io/cluster-bootstrap => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cluster-bootstrap"
-		k8s.io/code-generator => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/code-generator"
-		k8s.io/component-base => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/component-base"
-		k8s.io/component-helpers => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/component-helpers"
-		k8s.io/controller-manager => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/controller-manager"
-		k8s.io/cri-api => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cri-api"
-		k8s.io/csi-translation-lib => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/csi-translation-lib"
-		k8s.io/dynamic-resource-allocation => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/dynamic-resource-allocation"
-		k8s.io/kms => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kms"
-		k8s.io/kube-aggregator => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-aggregator"
-		k8s.io/kube-controller-manager => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-controller-manager"
-		k8s.io/kube-proxy => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-proxy"
-		k8s.io/kube-scheduler => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-scheduler"
-		k8s.io/kubectl => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kubectl"
-		k8s.io/kubelet => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kubelet"
-		k8s.io/kubernetes => "F:/Program Files/GoProject/workspace/kubernetes"
-		k8s.io/legacy-cloud-providers => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/legacy-cloud-providers"
-		k8s.io/metrics => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/metrics"
-		k8s.io/mount-utils => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/mount-utils"
-		k8s.io/pod-security-admission => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/pod-security-admission"
-		k8s.io/sample-apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/sample-apiserver"
-		)
+
+// 使用本地的 k8s 源码路径替换
+replace (
+	k8s.io/api => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/api"
+	k8s.io/apiextensions-apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apiextensions-apiserver"
+	k8s.io/apimachinery => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apimachinery"
+	k8s.io/apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/apiserver"
+	k8s.io/cli-runtime => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cli-runtime"
+	k8s.io/client-go => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/client-go"
+	k8s.io/cloud-provider => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cloud-provider"
+	k8s.io/cluster-bootstrap => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cluster-bootstrap"
+	k8s.io/code-generator => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/code-generator"
+	k8s.io/component-base => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/component-base"
+	k8s.io/component-helpers => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/component-helpers"
+	k8s.io/controller-manager => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/controller-manager"
+	k8s.io/cri-api => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/cri-api"
+	k8s.io/csi-translation-lib => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/csi-translation-lib"
+	k8s.io/dynamic-resource-allocation => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/dynamic-resource-allocation"
+	k8s.io/kms => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kms"
+	k8s.io/kube-aggregator => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-aggregator"
+	k8s.io/kube-controller-manager => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-controller-manager"
+	k8s.io/kube-proxy => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-proxy"
+	k8s.io/kube-scheduler => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kube-scheduler"
+	k8s.io/kubectl => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kubectl"
+	k8s.io/kubelet => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/kubelet"
+	k8s.io/kubernetes => "F:/Program Files/GoProject/workspace/kubernetes"
+	k8s.io/legacy-cloud-providers => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/legacy-cloud-providers"
+	k8s.io/metrics => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/metrics"
+	k8s.io/mount-utils => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/mount-utils"
+	k8s.io/pod-security-admission => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/pod-security-admission"
+	k8s.io/sample-apiserver => "F:/Program Files/GoProject/workspace/kubernetes/staging/src/k8s.io/sample-apiserver"
+)
