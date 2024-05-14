@@ -5,7 +5,7 @@ go 1.22.2
 require (
 	k8s.io/api v0.30.0
 	k8s.io/apimachinery v0.30.0
-	k8s.io/kubernetes v1.30.0
+	k8s.io/kubernetes v1.23.6
 )
 
 require (
